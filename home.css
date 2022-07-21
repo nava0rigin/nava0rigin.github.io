@@ -80,6 +80,45 @@
     background: #161616;
 }
 
+.wolf {
+    margin: auto;
+    background: #161616;
+    width: 55%;
+    /* justify-content: center; */
+}
+
+.wolf img {
+    height: 30px;
+    background: transparent;
+}
+
+.wolf h1 {
+    display:flex;
+    text-align: center;
+    color: wheat;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background: #161616;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.wolf hr {
+    margin: auto;
+    width: 70%;
+    /* border: none; */
+    /* height: 1px; */
+}
+
+.yt-embed {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: #161616;
+    width: 55%;
+    padding-top: 30px;
+}
+
 .breaker {
     margin: auto;
     background: #161616;
