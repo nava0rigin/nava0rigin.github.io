@@ -143,3 +143,26 @@
 .blogs .blog-1 a:hover {
     text-decoration: underline;
 }
+
+.footer {
+    margin: auto;
+    width: 55%;
+    background: #161616;
+}
+
+.footer img {
+    margin: auto;
+    width: 150px;
+    background: #161616;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    margin: auto;
+    padding-top: 300px;
+    background: #161616;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
