@@ -160,8 +160,13 @@ body {
 }
 
 .blogs hr {
+    position: static;
     margin-left: 150px;
-    /* border: none; */
+}
+
+.blogs .blog-1 img {
+    height: 50px;
+    background: #161616;
 }
 
 .blogs .blog-1 {
