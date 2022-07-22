@@ -78,6 +78,7 @@ body {
     position: absolute;
     font-size: 20px;
     color: red;
+    background: #161616;
 }
 
 .quote span {
