@@ -9,7 +9,6 @@
 
 body {
     background: url(images/frame_0\ \(7\).png) right, url(/images/frame_0\ \(7\).png) left;
-    /* background-position: right; */
 }
 
 
@@ -194,7 +193,7 @@ body {
     background: #161616;
 }
 
-.footer img {
+.footer .snake {
     margin: auto;
     width: 150px;
     background: #161616;
@@ -204,9 +203,39 @@ body {
 
 .footer p {
     margin: auto;
-    padding-top: 450px;
+    padding-top: 10px;
     background: #161616;
     color: white;
     display: flex;
     justify-content: center;
+}
+
+.footer h2 {
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    padding-top: 450px;
+    background: #161616;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    padding: 0px 7px;
+    background: wheat;
+}
+
+.footer h3 {
+    padding-top: 10px;
+    background: #161616;
+    text-align: center;
+}
+
+.footer hr {
+    margin: auto;
+    width: 36%
+}
+
+.footer .social {
+    height: 20px;
 }
