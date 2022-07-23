@@ -2,22 +2,38 @@
 
 * {
     /* font-family: 'Bebas Neue', cursive; */
-    background: #161616;
+    background: #3e3e3e;
     margin: 0;
     padding: 0;
 }
 
+body {
+    background: url(/images/frame_0\ \(7\).png) right, url(/images/frame_0\ \(7\).png) left;
+}
+
+
+.container-main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: #161616;
+    width: 55%;
+    height: auto;
+}
+
 .topbar {
     margin: auto;
-    /* text-align: center; */
-    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    background: #161616;
+    width: 55%;
 }
 
 .topbar a {
     font-family: 'Bebas Neue', cursive;
     background: transparent;
-    padding: 0px 1px;
-    font-size: 15px;
+    padding: 0px 7px;
+    font-size: 20px;
     text-decoration: none;
     color: #47B6FF;
 }
@@ -27,19 +43,19 @@
 }
 
 .header {
-    margin: auto;
-    width: auto;
-    align-items: center;
     display: inline-block;
     justify-content: space-between;
     background: transparent;
 }
 
+.header a {
+    background: #161616;
+}
+
 .header .nava {
     position: relative;
     justify-content: center;
-    padding-top: 20px;
-    width: 180px;
+    padding-top: 10px;
     background: transparent;
     -webkit-filter: invert(100%);
     filter: invert(100%);
@@ -48,33 +64,41 @@
 .header .frame-left {
     float: left;
     background: transparent;
-    height: 90px;
-    width: 90px;
+    height: 200px;
+    width: 200px;
 }
 
 .header .frame-right {
     float: right;
     background: transparent;
-    height: 90px;
-    width: 90px;
+    height: 200px;
+    width: 200px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
 
 .quote {
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 150px;
     position: absolute;
-    font-size: 15px;
+    font-size: 20px;
     color: red;
+    background: #161616;
+}
+
+.quote span {
+    background: #161616;
 }
 
 .wolf {
     margin: auto;
+    background: #161616;
+    width: 55%;
+    /* justify-content: center; */
 }
 
 .wolf img {
     height: 30px;
+    background: transparent;
 }
 
 .wolf h1 {
@@ -82,14 +106,21 @@
     text-align: center;
     color: wheat;
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: 30px;
     background: #161616;
+    padding-left: 200px;
     padding-top: 100px;
+}
+
+.wolf span {
+    background: #161616;
 }
 
 .wolf hr {
     margin: auto;
     width: 70%;
+    /* border: none; */
+    /* height: 1px; */
 }
 
 .yt-embed {
@@ -101,13 +132,11 @@
     padding-top: 30px;
 }
 
-.yt-embed iframe {
-    height: 200px;
-} 
-
 .breaker {
     margin: auto;
-    /* width: 55%; */
+    background: #161616;
+    width: 55%;
+    /* justify-content: center; */
 }
 
 .breaker h1 {
@@ -115,14 +144,27 @@
     text-align: center;
     color: wheat;
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: 30px;
     background: #161616;
+    padding-left: 200px;
     padding-top: 100px;
+}
+
+.breaker span {
+    background: #161616;
+}
+
+.breaker img {
+    width: 30px;
+    padding-right: 5px;
+    background: #161616;
 }
 
 .breaker hr {
     margin: auto;
-    width: 95%;
+    width: 70%;
+    /* border: none; */
+    /* height: 1px; */
 }
 
 
@@ -132,26 +174,37 @@
     margin-top: 0.1px;
     display: flex;
     background: #161616;
+    width: 55%;
     height: auto;
 }
 
+.blogs hr {
+    position: static;
+    margin-left: 150px;
+}
+
 .blogs .blog-1 img {
-    height: 25px;
+    height: 50px;
+    background: #161616;
 }
 
 .blogs .blog-1 {
     float: left;
-    padding-left: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
+    background: #161616;
 }
 
 .blogs .blog-1 h1 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
+    font-size: 40px;
+    background: #161616;
 }
 
 .blogs .blog-1 a {
     color: white;
     text-decoration: none;
+    background: #161616;
 }
 
 .blogs .blog-1 a:hover {
@@ -184,7 +237,7 @@
 .footer h2 {
     font-family: 'Bebas Neue', cursive;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 150px;
     background: #161616;
     color: red;
     display: flex;
