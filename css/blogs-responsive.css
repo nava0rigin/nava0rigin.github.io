@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    /* font-family: 'Bebas Neue', cursive; */
+    background: #161616;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    margin: auto;
+    text-align: center;
+    /* padding-left: 50px; */
+}
+
+.topbar a {
+    font-family: 'Bebas Neue', cursive;
+    background: transparent;
+    padding: 0px 1px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #47B6FF;
+}
+
+.topbar a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    /* display: inline-block; */
+    /* justify-content: space-between; */
+    background: transparent;
+}
+
+.header .nava {
+    position: relative;
+    justify-content: center;
+    padding-top: 20px;
+    width: 180px;
+    background: transparent;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.header .frame-left {
+    float: left;
+    background: transparent;
+    height: 90px;
+    width: 90px;
+}
+
+.header .frame-right {
+    float: right;
+    background: transparent;
+    height: 90px;
+    width: 90px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.quote {
+    margin-left: 10px;
+    margin-top: 40px;
+    position: absolute;
+    font-size: 15px;
+    color: red;
+}
+
+
+.breaker {
+    margin: auto;
+    padding-top: 100px;
+}
+
+.breaker h1 {
+    display:flex;
+    text-align: center;
+    color: wheat;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background: #161616;
+    padding-top: 100px;
+}
+
+.breaker hr {
+    margin: auto;
+    width: 95%;
+    /* border: none; */
+    /* height: 1px; */
+}
+
+.breaker-2 {
+    padding-top: 5px;
+    margin: auto;
+    background: #161616;
+    width: 95%;
+}
+
+.breaker-2 hr {
+    margin: auto;
+    border: 1px solid greenyellow;
+    /* width: 70%; */
+    /* margin-left: 160px; */
+}
+
+
+.blogs {
+    position: relative;
+    margin: auto;
+    margin-top: 0.1px;
+    display: flex;
+    background: #161616;
+    height: auto;
+}
+
+.blogs hr {
+    position: static;
+}
+
+.blogs .blog-1 img {
+    height: 50px;
+    background: #161616;
+}
+
+.blogs .blog-1 {
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    background: #161616;
+}
+
+.blogs .blog-1 h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    background: #161616;
+}
+
+.blogs .blog-1 p {
+    padding-top: 10px;
+    font-size: 15px;
+    background: #161616;
+    color: white;
+}
+
+.blogs .blog-1 hr {
+    margin: auto;
+    width: 70%;
+    float: left;
+    border: dashed;
+    color: wheat;
+    background: #161616;
+}
+
+.blogs .blog-1 a {
+    color: white;
+    text-decoration: none;
+    background: #161616;
+}
+
+.blogs .blog-1 a:hover {
+    text-decoration: underline;
+}
+
+.blogs .end {
+    border: 2px solid wheat;
+}
+
+.footer {
+    margin: auto;
+    width: 55%;
+    background: #161616;
+}
+
+.footer .snake {
+    margin: auto;
+    width: 150px;
+    background: #161616;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    margin: auto;
+    padding-top: 10px;
+    background: #161616;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer h2 {
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    padding-top: 240px;
+    background: #161616;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    padding: 0px 7px;
+    background: wheat;
+}
+
+.footer h3 {
+    padding-top: 10px;
+    background: #161616;
+    text-align: center;
+}
+
+.footer hr {
+    margin: auto;
+    width: 36%
+}
+
+.footer .social {
+    height: 20px;
+}
