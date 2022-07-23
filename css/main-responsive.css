@@ -29,9 +29,10 @@
 .header {
     margin: auto;
     width: auto;
+    text-align: center;
     align-items: center;
-    display: inline-block;
-    justify-content: space-between;
+    /* display: inline-block; */
+    /* justify-content: space-between; */
     background: transparent;
 }
 
@@ -63,7 +64,7 @@
 
 .quote {
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
     position: absolute;
     font-size: 15px;
     color: red;
