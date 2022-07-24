@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+* {
+    background: #E1D9D1;
+    margin: 0;
+    padding: 0;
+}
+
+.container-head {
+    display: flex;
+    /* background: wheat; */
+    margin-top: 100px;
+    margin-left: 480px;
+    /* width: 120px; */
+    height: auto;
+}
+
+.container-head h1 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.container-head a {
+    padding-right: 25px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.quote {
+    /* background: wheat; */
+    margin-left: 580px;
+    margin-top: 40px;
+}
+
+.quote p {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.who-am-i {
+    /* background: wheat; */
+    margin-left: 580px;
+    margin-top: 100px;
+}
+
+.who-am-i h1 {
+    font-size: 40px;
+}
+
+.breaker {
+    margin-top: 10px;
+    margin-left: 580px;
+}
+
+.breaker hr {
+    width: 57%;
+}
+
+.answer {
+    /* background: wheat; */
+    display: block;
+    margin-left: 580px;
+    width: 40%;
+}
+
+.answer p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-left: 480px;
+}
+
+.footer h3  {
+    margin-left: 100px;
+}
+
+.footer p {
+    margin-left: 100px;
+}
+
+.footer .snake {
+    width: 100px;
+    margin-left: 100px;
+}

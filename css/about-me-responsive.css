@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+* {
+    background: #E1D9D1;
+    margin: 0;
+    padding: 0;
+}
+
+.container-head {
+    margin-top: 100px;
+    margin-left: 10px;
+    height: auto;
+}
+
+.container-head h1 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.container-head a {
+    padding-right: 25px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.quote {
+    /* background: wheat; */
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.quote p {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.who-am-i {
+    /* background: wheat; */
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.who-am-i h1 {
+    font-size: 40px;
+}
+
+.breaker {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.answer {
+    /* background: wheat; */
+    display: block;
+    margin-left: 20px;
+}
+
+.answer p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.footer .snake {
+    width: 100px;
+    margin-left: 20px;
+}
