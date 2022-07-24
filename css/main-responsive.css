@@ -103,17 +103,12 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    width: 55%;
     padding-top: 30px;
 }
 
 .yt-embed hr {
     border: 1px solid black;
 }
-
-.yt-embed iframe {
-    height: 200px;
-} 
 
 .breaker {
     margin: auto;
