@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
 
 * {
     /* font-family: 'Bebas Neue', cursive; */
@@ -65,9 +66,13 @@
 .quote {
     margin-left: 10px;
     margin-top: 40px;
-    position: absolute;
+}
+
+.quote p {
+    text-align: center;
+    font-family: "Edu NSW ACT Foundation", cursive;
     font-size: 15px;
-    color: red;
+    color: white;
 }
 
 .wolf {

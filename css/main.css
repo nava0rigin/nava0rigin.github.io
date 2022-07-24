@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
 
 * {
     /* font-family: 'Bebas Neue', cursive; */
-    background: #3e3e3e;
+    /* background: #3e3e3e; */
+    background: #E1D9D1;
     margin: 0;
     padding: 0;
 }
@@ -83,13 +85,14 @@ body {
 
 .quote {
     margin-top: 150px;
+    font-family: "Edu NSW ACT Foundation", cursive;
     position: absolute;
     font-size: 20px;
-    color: red;
+    color: white;
     background: #161616;
 }
 
-.quote span {
+.quote p {
     background: #161616;
 }
 
